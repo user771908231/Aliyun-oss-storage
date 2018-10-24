@@ -568,6 +568,10 @@ class AliOssAdapter extends AbstractAdapter
     public function getUrl( $path )
     {
 //         if (!$this->has($path)) throw new FileNotFoundException($filePath.' not found');
+        /**
+         * 不晓得这是个什么鬼！反正在我这就报错
+         * ErrorException In AliOssAdapter.php line 570 :
+         */
          if ($this->has($path)) throw new FileNotFoundException($filePath.' not found');
         return ( $this->ssl ? 'https://' : 'http://' ) . ( $this->isCname ? ( $this->cdnDomain == '' ? $this->endPoint : $this->cdnDomain ) : $this->bucket . '.' . $this->endPoint ) . '/' . ltrim($path, '/');
     }
