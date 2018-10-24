@@ -1,5 +1,5 @@
 {
-    "name": "user771908231/Aliyun-oss-storage-wm",
+    "name": "user771908231/aliyun-oss-storage-wm",
     "description": "aliyun oss filesystem storage for laravel 5+",
     "keywords": ["aliyun", "oss", "laravel", "filesystems", "storage"],
     "license": "MIT",
