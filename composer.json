@@ -2,7 +2,6 @@
     "name": "user771908231/Aliyun-oss-storage-wm",
     "description": "aliyun oss filesystem storage for laravel 5+",
     "keywords": ["aliyun", "oss", "laravel", "filesystems", "storage"],
-//    "homepage": "http://jacobcyl.github.io/Aliyun-oss-storage/",
     "license": "MIT",
     "authors": [
         {
