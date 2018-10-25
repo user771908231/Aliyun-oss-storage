@@ -569,7 +569,8 @@ class AliOssAdapter extends AbstractAdapter
     {
 //         if (!$this->has($path)) throw new FileNotFoundException($filePath.' not found');
         /**
-         * ！不验证图片是否在桶
+         * ！关闭因图片不在bucket中，产生的错误抛出
+         * 产生的错误抛出，会使页面打不开，影响整个项目
          * ErrorException In AliOssAdapter.php line 570 :
          */
 //         if ($this->has($path)) throw new FileNotFoundException($filePath.' not found');
